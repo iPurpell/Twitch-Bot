@@ -1,4 +1,5 @@
 class User:
+    
     lurktotal=None
     lurktime=None
     points=0
@@ -7,8 +8,7 @@ class User:
         self.lurktotal = lurktotal
         self.lurktime = lurktime
         self.points = points
-        
-        
+             
     def add_lurk(self,time):
         self.lurktotal=+time
     
